@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content : space-evenly;
+    background-color: yellow;
+    height: 50px;
+  }
+  
+  
+  .item{
+    background-color: green;
+    width: 40px;
+    height: 20px;
+  }
+  

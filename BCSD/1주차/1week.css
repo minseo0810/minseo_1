@@ -1,0 +1,38 @@
+header{
+    height: 60px;
+    width: 100vw;
+    background-color: red;
+    margin : 0 auto;
+}
+
+.class_3partition{
+    width: calc(100vw / 3.001); /*100을 3으로 나눈다면 33.3....4이기 때문에 3개의 합이 결국 100을 넘어설수 밖에 없음*/
+    height: calc(100vh - 100px);
+    display: inline-block;
+    padding-top : calc((100vh - 100px) / 2);
+    box-sizing: border-box;
+}
+nav{
+    background-color: pink;
+}
+section{
+    background-color: burlywood;
+}
+aside{
+    background-color: purple;
+}
+
+
+footer{
+    height: 40px;
+    width: 100vw;
+    background-color: gray;
+    margin : 0 auto;
+}
+
+body{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
